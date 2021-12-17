@@ -7,7 +7,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E8877;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <AnchorPane layoutY="100.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
@@ -31,7 +30,7 @@
             <Font name="Bodoni MT Bold" size="40.0" />
          </font>
       </Text>
-      <Button fx:id="register" layoutX="545.0" layoutY="24.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #2E4444; -fx-border-radius: 10;" text="register" textFill="WHITE">
+      <Button fx:id="register" layoutX="545.0" layoutY="24.0" mnemonicParsing="false" onAction="#initialize" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #2E4444; -fx-border-radius: 10;" text="register" textFill="WHITE">
          <font>
             <Font name="Bodoni MT Italic" size="21.0" />
          </font>

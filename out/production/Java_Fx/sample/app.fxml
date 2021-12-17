@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -10,16 +13,25 @@
     <children>
         <AnchorPane layoutY="100.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
             <children>
+            <TextField fx:id="name" layoutX="24.0" layoutY="82.0" prefHeight="31.0" prefWidth="175.0" promptText="Name" />
                 <Text fill="#3f543f" layoutX="247.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign In" wrappingWidth="120.13671875">
                     <font>
                         <Font name="Bodoni MT Bold" size="40.0" />
                     </font>
                 </Text>
-            <ImageView fx:id="image1" fitHeight="145.0" fitWidth="167.0" layoutX="235.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="image1" fitHeight="145.0" fitWidth="167.0" layoutX="445.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@assets/image1.png" />
                </image>
             </ImageView>
+            <TextField fx:id="surname" layoutX="229.0" layoutY="82.0" prefHeight="31.0" prefWidth="175.0" promptText="Surname" />
+            <TextField fx:id="Email" layoutX="24.0" layoutY="135.0" prefHeight="31.0" prefWidth="175.0" promptText="E-Mail" />
+            <PasswordField fx:id="password" layoutX="229.0" layoutY="135.0" prefHeight="31.0" prefWidth="175.0" promptText="Password" />
+            <Button fx:id="sign_in" layoutX="146.0" layoutY="196.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="166.0" style="-fx-background-color: #2E8877; -fx-border-radius: 10;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Bold" size="24.0" />
+               </font>
+            </Button>
             </children>
         </AnchorPane>
         <Text fill="WHITE" layoutX="192.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java FX Tests" wrappingWidth="299.13671875">
