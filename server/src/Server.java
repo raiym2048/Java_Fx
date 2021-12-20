@@ -1,5 +1,7 @@
 
 
+import PhoneDirectory.Phone;
+
 import java.io.*;
 import java.net.ServerSocket;
 
