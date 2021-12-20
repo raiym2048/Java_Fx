@@ -1,3 +1,4 @@
+/*
 package sample;
 
 public class Configs {
@@ -7,3 +8,4 @@ public class Configs {
     protected String dbPass = "12345";
     protected String dbName = "servers";
 }
+*/
