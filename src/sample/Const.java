@@ -1,4 +1,3 @@
-/*
 package sample;
 
 public class Const {
@@ -11,4 +10,3 @@ public class Const {
     public static final String USERS_PASSWORD = "password";
 
 }
-*/

@@ -1,4 +1,3 @@
-/*
 package sample;
 
 import java.net.URL;
@@ -46,4 +45,3 @@ public class HomeController {
     }
 
 }
-*/
